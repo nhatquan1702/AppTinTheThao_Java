@@ -102,7 +102,8 @@ public class BangXepHangActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<ArrayList<KetQua_TranDau>> call, Throwable t) {
-                Log.d("kq", "NhanCHiKQ");
+                Log.d("ketqua", "getListFail");
+                Log.d("ketqua", t.getMessage());
             }
         });
     }
