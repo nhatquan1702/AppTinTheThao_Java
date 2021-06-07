@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity{
         btnLoginHeader = headerView.findViewById(R.id.btnHeaderLogin);
         imgAVTHeader = headerView.findViewById(R.id.imgAVT);
         DangNhap();
-        Log.d("tncnhan", "Load login done!");
+
         //Load menu navigation khi vuốt cạnh trái hoặc click icon tool bar
         iconToolbarMenu = findViewById(R.id.iconToolbarMenu);
         drawerlayout = (FlowingDrawer) findViewById(R.id.drawerlayout);
@@ -191,6 +191,8 @@ public class MainActivity extends AppCompatActivity{
         }).attach();
 
     }
+
+
     // lưu ref các thông tin
     // email
     // password
